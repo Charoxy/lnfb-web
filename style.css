@@ -66,13 +66,14 @@ h1{
     margin: 0px;
     color: #342359;
     margin-bottom: 3vw;
+    font-size: 3.5vw;
 }
 .presentation{
     text-align: center;
     color: #6A4EA6;
     padding: 10px;
 }
-@media all and (max-width: 650px)
+@media all and (max-width: 800px)
 {
     .discord
     {
@@ -103,4 +104,25 @@ h1{
     h1{
         padding-top: 0px;
     }
+    .reseaux{
+        margin: 0px;
+    }
+}
+
+.reseaux{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #342359;
+    width: 50vw;
+    margin: 0px auto;
+    min-width: 500px;
+    max-height: 70px;
+    height: 6vw;
+    border-radius: 10px;
+}
+
+.icon{
+    width: 4vw;
+    max-width: 40px;
 }
