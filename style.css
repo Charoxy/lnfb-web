@@ -12,6 +12,13 @@ a{
     font-size: clamp(1px, 2.5vw, 20px);
     text-decoration: none;
 }
+
+.navtext:hover{
+
+    color: #6A4EA6;
+
+}
+
 nav{
     background-color: #160F26;
     padding-top: 1%;
@@ -37,7 +44,9 @@ nav{
 }
 .midP{
     display: block;
-    height: 80vh;
+    height: 70vw;
+    max-height: 600px;
+    min-height: 500px;
     width: 100%;
     background-color: #C7B3F2;
 }
@@ -57,22 +66,37 @@ nav{
 }
 .discord{
     float: right;
-    margin-right: 1vw;
+    margin-right: 4vw;
     margin-top: 3vh;
 }
 h1{
-    padding-top: 13%;
+    padding-top: 8%;
     text-align: center;
     margin: 0px;
     color: #342359;
     margin-bottom: 3vw;
-    font-size: 3.5vw;
+    font-size: clamp(20px, 3.5vw, 50px);
 }
 .presentation{
     text-align: center;
     color: #6A4EA6;
     padding: 10px;
 }
+
+.reseaux{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #342359;
+    width: 50vw;
+    margin: 0px auto;
+    min-width: 150px;
+    max-height: 60px;
+    min-height: 25px;
+    height: 6vw;
+    border-radius: 10px;
+}
+
 @media all and (max-width: 800px)
 {
     .discord
@@ -80,7 +104,14 @@ h1{
        display: none; 
     }
     h1{
-        padding-top: 40%;
+        padding-top: 25%;
+    }
+    .reseaux{
+        margin: none;
+        padding: 0px;
+        width: 90vw;
+        max-width: none;
+        border-radius: 0px;
     }
 }
 
@@ -92,6 +123,13 @@ h1{
     }
     h1{
         padding-top: 10%;
+    }
+    .reseaux{
+        margin: none;
+        padding: 0px;
+        width: 90vw;
+        max-width: none;
+        border-radius: 0px;
     }
 }
 
@@ -105,24 +143,24 @@ h1{
         padding-top: 0px;
     }
     .reseaux{
-        margin: 0px;
+        margin: none;
+        padding: 0px;
+        width: 90vw;
+        max-width: none;
     }
 }
 
-.reseaux{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: #342359;
-    width: 50vw;
-    margin: 0px auto;
-    min-width: 500px;
-    max-height: 70px;
-    height: 6vw;
-    border-radius: 10px;
-}
+
 
 .icon{
     width: 4vw;
     max-width: 40px;
+    min-width: 20px;
+    transition-duration: 0.25s;
+
+}
+
+.icon:hover{
+    transition-duration: 0.25s;
+    transform: rotate(25deg);
 }
