@@ -1,0 +1,30 @@
+html body{
+    background: rgb(2,0,36);
+    background: linear-gradient(97deg, rgba(2,0,36,1) 0%, rgba(121,9,117,1) 100%);
+    padding: 0px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin-top: 35vh;
+    
+}
+
+.textForm{
+    text-align: center;
+    margin: 5px;
+    font-size: 15px;
+}
+
+.divinput{
+    margin: 0.5%;
+}
+.divForm{
+    background-color: #6A4EA6;
+    padding: 10px;
+    border-radius: 10px;
+}
