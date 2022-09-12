@@ -8,21 +8,25 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet"> 
     <title>LNFB - Connexion</title>
-    <link rel="stylesheet" href="connexion.css">
+    <link rel="stylesheet" href="css/connexion.css">
 
 </head>
 <body>
-    <form action="" method="post">
+    <form action="log.php" method="post">
         <div class="divForm">
 
             <div class="divinput">
                 <p class="textForm">Pseudo :</p>
-                <input type="text" id="pseudo">
+                <input type="text" name="pseudo" class="TextInput">
             </div>
 
             <div class="divinput">
                 <p class="textForm">Mot de passe :</p>
-                <input type="password" id="Mots de passe">
+                <input type="password" name="mdp" class="TextInput">
+            </div>
+
+            <div class="divinput">
+                <input type="submit" class="submit" value="Connexion">
             </div>
 
         </div>

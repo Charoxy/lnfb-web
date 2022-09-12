@@ -28,3 +28,11 @@ form{
     padding: 10px;
     border-radius: 10px;
 }
+.TextInput{
+    border-radius: 10px;
+
+}
+
+.submit{
+    margin:5px 25%;
+}

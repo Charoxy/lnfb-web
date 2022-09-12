@@ -1,0 +1,96 @@
+html body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #342359;
+}
+.administration{
+    display: inline-block;
+    background-color: #160F26;
+    height: 100%;
+}
+
+.navAdmin{
+    padding: 5px;
+    display: flex;
+    background-color: #160F26;
+    flex-direction: column;
+}
+
+.btnAdmin{
+    background-color: #6A4EA6;
+    margin-bottom: 3%;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.nav{
+    background-color: #160F26;
+    padding: 0.5%;
+    padding-bottom: 1%;
+}
+
+.textNav{
+    font-size: clamp(10px, 1vw, 15px);
+    color: #C7B3F2;
+    margin: 0px;
+}
+.title{
+    margin: 0px;
+    font-size: clamp(20px, 2.5vw, 30px);
+    color: #C7B3F2;
+}
+
+.infoNav{
+    padding: 1.5%;
+    display: inline-block;
+    background-color: #342359;
+    border-radius: 10px;
+}
+.btn{
+    padding: 10px;
+    margin: 0px;
+    color: #C7B3F2;
+    border-radius: 5px;
+    background-color: #6A4EA6;
+    display: inline-block;
+}
+.boutonNav{
+    float: right;
+    margin-top: 3%;
+    margin-right: 5%;
+    display: inline-block;
+
+}
+.News-title{
+    text-align: center;
+    color: #C7B3F2;
+
+}
+.article{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+.article-corps{
+    text-align: center;
+    background-color: #6A4EA6;
+    width: 40%;
+    min-width: 300px ;
+    padding: 2.5%;
+    margin-top: 2%;
+    border-radius: 15px;
+}
+.Article-title{
+    color: #C7B3F2;
+}
+.article-text{
+    color: #C7B3F2;
+}
+.article-Auteur{
+    color: #C7B3F2;
+}
+a{
+    text-decoration: none;
+    color: #C7B3F2;
+}
