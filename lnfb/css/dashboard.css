@@ -5,8 +5,10 @@ html body{
 }
 .administration{
     display: inline-block;
+    position: absolute;
     background-color: #160F26;
-    height: 100%;
+    height: 100vh;
+    
 }
 
 .navAdmin{
@@ -85,7 +87,15 @@ html body{
     color: #C7B3F2;
 }
 .article-text{
+    display: inline-block;
     color: #C7B3F2;
+    
+}
+.article-description{
+    display: block;
+    background-color: #160F26;
+    width: 25px;
+    white-space: normal;
 }
 .article-Auteur{
     color: #C7B3F2;
@@ -93,4 +103,7 @@ html body{
 a{
     text-decoration: none;
     color: #C7B3F2;
+}
+pre{
+    white-space: pre;
 }

@@ -1,6 +1,9 @@
 <?php
 
 session_start(); 
+if(!isset($_SESSION["pseudo"])){
+    header("location: connexion.html");
+}
 $pseudo = $_SESSION["pseudo"];
 $uid = $_SESSION["id"];
 $grade = $_SESSION["grade"];
@@ -31,7 +34,7 @@ $username = 'root';
         <div class="boutonNav">
             <p class="btn"><a>Mon Compte</a></p>
             <?php if(strpos($grade,"admin") !== false){ ?>
-                <p class="btn"><a href="administration.php">Admin</a></p>
+                <p class="btn"><a href="Admin/administration.php">Admin</a></p>
             <?php } ?>
         </div>
     </div>
@@ -56,7 +59,7 @@ $username = 'root';
                 <div class="article">
                     <div class="article-corps">
                         <h2 class="Article-title"> <?php echo $newsTitle?> </h2>
-                        <p class="article-text"> <?php echo $newsDesc?> </p>
+                        <p class="article-text"><?php echo $newsDesc?></p>
                         <p class="article-Auteur">Auteur : <?php echo $newsAuthor?> </p>
                     </div>
                 </div>
@@ -73,6 +76,5 @@ $username = 'root';
 
         </div>
     </div>
-    
 </body>
 </html>

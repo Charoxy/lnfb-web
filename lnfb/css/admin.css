@@ -1,0 +1,69 @@
+.newsCreation{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+.textForm{
+    margin: 0px;
+}
+.titreform{
+    text-align: center;
+    margin-top: 0px;
+
+}
+.submit{
+    margin-top: 5px;
+    display: block;
+}
+.formNews{
+    padding: 5px;
+    background-color: #9E82D9;
+}
+.subform{
+    text-align: center;
+}
+.newslist{
+    display: flex;
+    padding-left: 5%;
+    justify-content: center;
+    background-color: #9E82D9;
+}
+.news{
+    margin:25px;
+    width: 20vw;
+    padding: 5px;
+    background-color: aliceblue;
+}
+.news-title{
+    text-align: center;
+}
+.btn-news{
+    border: none;
+    background-color: #6A4EA6;
+    display: inline-block;
+    padding: 5px;
+    color: white;
+    text-align: center;
+}
+
+.joueurlist{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.joueur{
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+    background-color: #6A4EA6;
+}
+.TextSuivie{
+    border: #9E82D9 solid 3px;
+    border-radius: 10px;
+    padding: 7px;
+    margin-left: 5%;
+    color: white;
+    display: inline-block;
+}
